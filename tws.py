@@ -1,5 +1,5 @@
-# Code by : Anonyomus
-# Date : xx-xx-xxxx
+# Code by : Karan Dev
+# Date : 19-06-2016
 
 from selenium import webdriver
 import random
