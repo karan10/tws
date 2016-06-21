@@ -28,9 +28,8 @@ class TalkWithStranger :
 
 	def __browser_initiator ( self ) :
 
-		driver = webdriver.Firefox( )
+		return webdriver.Firefox( )
 
-		return driver
 
 	# main code driving function
 	def _here_the_fun_begins ( self ) :
