@@ -28,12 +28,7 @@ class TalkWithStranger :
 
 	def __browser_initiator ( self ) :
 
-		ext = webdriver.FirefoxProfile()
-		adblockfile = 'adblockplusfirefox.xpi'
-		ext.add_extension(adblockfile)
-		ext.set_preference("extensions.adblockplus.currentVersion", "2.4")
-
-		driver = webdriver.Firefox( ext )
+		driver = webdriver.Firefox( )
 
 		return driver
 
